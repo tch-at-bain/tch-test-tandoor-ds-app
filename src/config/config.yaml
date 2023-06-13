@@ -1,0 +1,9 @@
+auth:
+  sso:
+    enabled: false
+    methods:
+      blueprint_name: azure 
+      secrets_key: azure_ad
+      client_id: CLIENT_ID
+      client_secret: CLIENT_SECRET
+      authority: https://login.microsoftonline.com/TENANT_NAME

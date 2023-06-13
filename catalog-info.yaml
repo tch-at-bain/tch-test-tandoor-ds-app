@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tch-test-tandoor-ds-app
+  title: tch-test-tandoor-ds-app
+  description: |-
+    Test DS app from tandoor
+  tags: 
+    - datascience
+    - python
+    - service
+spec:
+  type: service
+  lifecycle: mvp
+  owner: tch-at-bain
